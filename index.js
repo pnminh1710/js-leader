@@ -1,16 +1,7 @@
-// This is main file js for coding.
+var a = '1000';
+var b = '200';
 
-var a = {
-  foo: 'bar'
-};
+console.log(a > b);
+// Chạy chương trình và tìm hiểu vì sao kết quả lại là false mặc dù 1000 trông có vẻ lớn hơn 200. Viết câu trả lời ở dưới đây.
 
-var b = {
-  foo: 'bar'
-};
-
-console.log(a === b);
-// Chạy chương trình và tìm hiểu vì sao kết quả lại là false mặc dù giá trị của 2 object có vẻ giống nhau. Viết câu trả lời ở dưới đây.
-
-
-// Two objects are strictly equal if they refer to the same Object.
-// Trong truong hop nay 2 object dang khong refer den 1 object nao do nen chung khong bang nhau
+// Dang so sanh 2 chuoi chu ko phai so, suy ra ki tu dau tien '2' se lon hon '1'
