@@ -1,7 +1,13 @@
+var a = [1, 2, 4, 8, 16];
 /**
- * Dùng vòng lặp for hiển thị ra màn hình các số từ 0 đến 9
+ * Sử dụng vòng lặp for để hiển thị ra màn hình các phần tử của mảng a theo thứ tự ngược lại:
+ * 16
+ * 8
+ * 4
+ * 2
+ * 1
  */
 
-for (let index = 97; index <= 122; index++) {
-  console.log(String.fromCharCode(index));
+for (let index = a.length - 1; index >= 0; index--) {
+  console.log(a[index]);
 }
