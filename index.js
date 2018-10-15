@@ -1,11 +1,13 @@
-var a = 10;
-var h = 20;
+var width = 10;
+var height = 20;
 
+var s = width * height;
 /**
- * a: cạnh đáy của 1 hình tam giác
- * h: chiều cao của tam giác đó
- * Yêu cầu: khai báo biến s bằng diện tích của hình tam giác này 
+ * width: Chiều rộng của 1 hình chữ nhật
+ * height: Chiều cao của hình chữ nhật
+ * s: diện tích của hình chữ nhật (code mẫu)
+ * Yêu cầu: 
+ * - Khai báo biến p là chu vi của hình chữ nhật này.
  */
 
- const S = (a * h) / 2;
- 
+const p = (width + height) * 2;
