@@ -1,11 +1,11 @@
-var a = 10;
-var h = 20;
+var r = 10;
 
+var s = r * r * 3.14;
 /**
- * a: cạnh đáy của 1 hình tam giác
- * h: chiều cao của tam giác đó
- * Yêu cầu: khai báo biến s bằng diện tích của hình tam giác này 
+ * r: Bán kính của 1 hình tròn
+ * s: Diện tích của hình tròn đó
+ * Yêu cầu: 
+ * - Khai báo biến p là chu vi của hình tròn này.
  */
 
- const S = (a * h) / 2;
- 
+const p = 2 * r * 3.14;
