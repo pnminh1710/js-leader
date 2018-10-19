@@ -1,21 +1,13 @@
-var a = [1, 2, 3, 4, 5];
-var b = [10, 20, 30];
 /**
- * Sử dụng vòng lặp for để tính tích của các phần tử của array a với các phần tử của array b. Kết quả mong muốn:
- * 10
- * 20
- * 30
- * ...
- * 20
- * 40
- * 60
- * ...
- * Gợi ý: Dùng nested for loops (các vòng lặp lồng nhau)
+ * Viết function trả về tích các số từ start đến end, không tính end 
+ * Ví dụ: console.log(calculate(2, 5)) sẽ hiển thị ra màn hình 24 (vì 2 * 3 * 4 = 24)
  */
-
-for (let i = 0; i < a.length; i++) {
-  for (let j = 0; j < b.length; j++) {
-    console.log(a[i] * b[j]);
+function calculate(start, end) {
+  let total = 1;
+  for (let i = start; i < end; i++) {
+    total = total * i;
   }
-  console.log('...');
-};
+  console.log(total);
+}
+
+calculate(2, 5);
